@@ -8,3 +8,4 @@
 <p>The background image is from "walls-catppuccin-mocha" https://github.com/orangci/walls-catppuccin-mocha<br>
 If someone knows the original artist, please let me know, so that I can give proper credit.</p>
 <img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/943a9d12-5bdf-48d2-a521-ffe8cdee0fdf" />
+<p>I made and tested this theme for a 1920x1080 resolution.</p>
