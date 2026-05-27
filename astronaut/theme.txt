@@ -13,7 +13,7 @@ terminal-height: "100%"
   top = 20%
   width = 36%
   height = 62%
-  item_font = "Public Sans Bold 20"
+  item_font = "JetBrains Mono Regular 20"
   item_color = "#CDD6F4"
   selected_item_color = "#CDD6F4"
   icon_width = 32
@@ -32,6 +32,7 @@ terminal-height: "100%"
   top = 100%-30
   width = 100%
   height = 30
+  font = "JetBrains Mono Regular 14"
   text = "Booting in %d seconds"
   text_color = "#E8D8C2"
   fg_color = "#cdd6f4"

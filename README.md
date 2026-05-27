@@ -9,3 +9,9 @@
 If someone knows the original artist, please let me know, so that I can give proper credit.</p>
 <img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/943a9d12-5bdf-48d2-a521-ffe8cdee0fdf" />
 <p>I made and tested this theme for a 1920x1080 resolution.</p>
+<h3>How to install a grub theme:</h3>
+<ol>
+<li>Extract the theme to /boot/grub/themes/</li>
+<li>Edit /etc/default/grub file. Find the line starting with "#GRUB_THEME" and change it to "GRUB_THEME=/boot/grub/themes/[THEME_FOLDER]/[theme.txt]" (replace [THEME_FOLDER] ; [theme.txt] is probably OK ; remove "[]" brackets)</li>
+<li>Run sudo update-grub
+</ol>
