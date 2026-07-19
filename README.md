@@ -1,4 +1,4 @@
-<h2>Astronaut GRUB Theme</h2>
+<h2>LaAlbiceleste GRUB Theme</h2>
 <p>This theme is partly based on the following themes:</p>
 <ul>
 <li>"Persona 3 Reload GRUB theme" https://github.com/RumIT802/Persona-3-Reload-Grub-Theme</li>
