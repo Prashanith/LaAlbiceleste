@@ -1,107 +1,112 @@
 #===============================================================================
+
 # Albiceleste Hacker - GRUB Theme
+
 # Resolution: 1920x1080
+
 #===============================================================================
 
 title-text: ""
+
 desktop-image: "background.png"
 desktop-image-scale-method: "stretch"
 desktop-color: "#03080F"
 
-# Hide terminal
-terminal-left: 0
-terminal-top: 0
-terminal-width: 100%
-terminal-height: 100%
-terminal-border: 0
-
 #===============================================================================
+
 # Boot Menu
+
 #===============================================================================
 
-+ boot_menu {
+* boot_menu {
 
-    left = 95
-    top = 350
+  left = "95"
+  top = "350"
 
-    width = 810
-    height = 330
+  width = "810"
+  height = "330"
 
-    item_font = "JetBrainsMono 20"
+  item_font = "JetBrainsMono 20"
 
-    item_color = "#7FA8D4"
-    selected_item_color = "#FFFFFF"
+  item_color = "#7FA8D4"
+  selected_item_color = "#FFFFFF"
 
-    icon_width = 18
-    icon_height = 18
-    item_icon_space = 10
+  icon_width = "18"
+  icon_height = "18"
+  item_icon_space = "10"
 
-    item_height = 46
-    item_padding = 12
-    item_spacing = 4
+  item_height = "46"
+  item_padding = "12"
+  item_spacing = "4"
 
-    menu_pixmap_style = "boot_menu_*.png"
-    selected_item_pixmap_style = "select_*.png"
+  menu_pixmap_style = "boot_menu_*.png"
+  selected_item_pixmap_style = "select_*.png"
 
 }
 
 #===============================================================================
+
 # Timeout Progress
+
 #===============================================================================
 
-+ progress_bar {
+* progress_bar {
 
-    id = "__timeout__"
+  id = "**timeout**"
 
-    left = 95
-    top = 714
+  left = "95"
+  top = "714"
 
-    width = 610
-    height = 4
+  width = "610"
+  height = "4"
 
-    font = "JetBrainsMono 14"
+  font = "JetBrainsMono 14"
 
-    text = "Booting in %d seconds..."
+  text = "Booting in %d seconds..."
 
-    text_color = "#6F8EAF"
+  text_color = "#6F8EAF"
 
-    fg_color = "#74ACDF"
-    bg_color = "#162334"
+  fg_color = "#74ACDF"
+  bg_color = "#162334"
 
-    highlight_style = "progress_highlight_*.png"
+  highlight_style = "progress_highlight_*.png"
 
 }
 
 #===============================================================================
+
 # Footer
+
 #===============================================================================
 
-+ label {
+* label {
 
-    text = "↑↓ navigate   •   ENTER select   •   e edit   •   c command line"
+  text = "↑↓ navigate   •   ENTER select   •   e edit   •   c command line"
 
-    font = "JetBrainsMono 14"
+  font = "JetBrainsMono 14"
 
-    color = "#506C88"
+  color = "#506C88"
 
-    left = 250
-    top = 760
+  left = "250"
+  top = "760"
 
 }
 
 #===============================================================================
-# Version label
+
+# Version Label
+
 #===============================================================================
 
-+ label {
+* label {
 
-    text = "GNU GRUB version 2.12 — bootloader"
+  text = "GNU GRUB version 2.12 — bootloader"
 
-    font = "JetBrainsMono 14"
+  font = "JetBrainsMono 14"
 
-    color = "#5D84AC"
+  color = "#5D84AC"
 
-    left = 365
-    top = 305
+  left = "365"
+  top = "305"
 
 }
